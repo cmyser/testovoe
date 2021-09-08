@@ -1,0 +1,5 @@
+.vscode
+cd "envirom"
+envirom
+__pycache__
+.sqlite3
