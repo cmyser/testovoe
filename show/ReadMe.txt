@@ -2,9 +2,9 @@ cd your dir
 
 pip install virtualenv
 
-python3 -m venv env 
+python -m venv env 
 
-если не работает то : python -m venv env
+
 
 cd env\Scripts
 
@@ -16,14 +16,18 @@ cd ..
 
 git clone https://github.com/cmyser/testovoe
 
+cd testovoe
+
 cd show 
 
 pip install -r requirements.txt
 
-cd show_data
+cd data_show
 
 serializer.py
 если не работает то : python serializer.py
+
+cd ..
 
 python manage.py makemigrations
 python manage.py makemigrations data_show
